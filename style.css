@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(7, 5, 19);
+}
+
+.nav{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    margin-bottom: 10px;
+    color: white;
+}
+
+input{
+    padding: 9px;
+    width: 500px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+}
+
+/* .searchBtn{
+    padding: 9px;
+    cursor: pointer;
+    background-color: rgb(11, 233, 11);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.searchBtn:hover{
+   color: rgb(240, 59, 59);
+} */
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+}
+
+.box{
+    padding: 12px;
+    margin: 12px 10px 12px 10px;
+    border-radius: 15px;
+    background-color: rgb(23, 23, 58);
+    color: white;
+    text-align: center;
+    width: 312px;
+}
+
+img{
+    height: 290px;
+    width: 290px;
+    padding: 15px 25px 10px 25px;
+}
+
+.watchBtn{
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: rgba(250, 3, 36, 0.993);
+    color: white;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: none;
+}
